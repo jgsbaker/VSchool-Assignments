@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles.css"/>
-        <title>Mom's Shopping List</title>
-    </head>
-    <body>
-        <div class="title-bar">
-            <h1 class="title">Mom's Shopping List</h1>
-        </div>
-        <div class="main">
-            <div class="title-bar">
-                <h3 class="title">Add Item</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM Olympics</title>
+</head>
+<body>
+    <header id="header"></header>
+    <label>Theme</label>
+    <select id="theme-drop-down">
+        <option value="theme-one">blue/brown</option>
+        <option value="theme-two">red/black</option>
+    </select>
+    <div id="main">
+        <button id='clear-button'>clear</button>
+        <div class="messages">
+            <div class="message left" id="msg1">
+                I have something serious to talk about
             </div>
-            <form name="addItem" id="add">
-                <label class="label" for="title">Item name</label>
-                <input id="inputItem" type="text" class="input" name="title" id="title" />
-                <button id="submit">submit</button>
-            </form>
-            <div class="todos">
-                <div class="title-bar">
-                    <h3 class="title">Things I Need</h3>
+            <div class="message right" id="msg2">
+                I don't want to talk
+            </div>
+            <div class="message left" id="msg3">
+                You have to, you're the police
+            </div>
+            <div class="message right" id="msg4">
+                I'm just a simple farmer
             </div>
         </div>
-        <hr>
-            <ul id="list">
-            </ul>
-        </hr>
-        <script src="index.js"></script>
-    </body>
+        <form name="message">
+            <input type="text" id="input" value="Thanks! Goodbye" />
+            <button id="send">Send</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>

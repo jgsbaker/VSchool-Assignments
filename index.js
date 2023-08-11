@@ -1,25 +1,17 @@
-const form = document.getElementById("add");
-function addItems() {
-  let li = document.createElement("li");
-  var item = document.createElement("div");
-  var input = document.getElementById("inputItem");
-  var dltBtn = document.createElement("button");
-  var edit = document.createElement("button");
-  dltBtn.textContent = "X";
-  edit.textContent = "edit";
-  item = input.value;
-  li.textContent += item;
-  li.append(dltBtn);
-  document.body.append(li);
-  input.value = "";
-  dltBtn.addEventListener("click", function deleted() {
-    li.remove();
-  });
+var title;
+var author;
+var year;
+constructor(title, author, year);
+{
+  function book() {
+    new book("The Great Gatsby", "F. Scott Fitzgerald", 1925);
+    new book("To Kill a Mockingbird", "Harper Lee", 1960);
+  }
 }
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const items = addItems();
-  let ul = document.getElementById("list");
-  ul.setAttribute;
-  ul.append(items);
-});
+console.log(book);
+var nums = [];
+function removeDuplicates(nums) {
+  return nums.filter((item, index) => nums.indexOf(item) === index);
+}
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
+console.log(removeDuplicates([5, 5, 5, 5, 5]));
