@@ -16,7 +16,7 @@ function EscapeRoom() {
         EscapeRoom();
       } else if (playAgain === "no") {
         console.log("See ya next time!");
-        break;
+        process.exit();
       }
     } else if (openWKey === "no") {
       console.log("Go back and try again");
