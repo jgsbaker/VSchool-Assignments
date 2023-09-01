@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to Rocket Airlines!</title>
+    </head>
+    <body>
+        <form name="custInfo" id="custInfo">
+            <input name="firstName" type="text" id="firstName"/>
+            <label for="firstName">First Name: </label>
+            <br>
+            <input type="text" name="lastName" id="lastName"/>
+            <label for="lastName">Last Name: </label>
+            <br>
+            <input type="digit" name="age" id="age">
+            <label for="age">Age: </label>
+            <br>
+            <input type="radio" name="gender" id="male" value="male"/>
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female"/>
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="other" value="other"/>
+            <label for="other">Other</label>
+            <br>
+            <select name="destination" id="destination">
+                <option name="anywhere" id="anywhere">Anywhere</option>
+                <option name="vacation" id="vacation">Vacation</option>
+                <option name="work" id="work">Work trip...</option>
+            </select>
+            <br>
+            <input type="checkbox" name="diet" id="vegetarian" value="vegetarian"/>
+            <label for="vegetarian">Vegetarian</label>
+            <br>
+            <input type="checkbox" name="diet" id="kosher" value="kosher"/>
+            <label for="kosher"> Kosher</label>
+            <br>
+            <input type="checkbox" name="diet" id="vegan" value="vegan"/>
+            <label for="vegan">Vegan</label>
+            <br>
+            <button id="submit" name="submit">Submit</button>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
