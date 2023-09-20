@@ -1,0 +1,93 @@
+{
+    "appetizers":[
+    {
+        "name": "Mozzarella Sticks",
+        "ingredients": ["Bread Crumbs", "Butter", "Oil", "Mozzarella"],
+        "description": "Your favorite breaded cheese snack with a side of red sauce"
+    },
+    {
+        "name": "Nachos",
+        "ingredients": ["Tortilla Chips", "Black Beans", "Cheese Sauce", "Beef, Chicken, or Pork", "Salsa"],
+        "description": "Chips with your favorite toppings"
+    },
+    {
+        "name": "Tomato Basil Soup",
+        "ingredients": ["Tomatoes", "Water", "Seasoning"],
+        "description": "Get this or our soup of the day with any meal!"
+    },
+    {
+        "name": "Salad",
+        "ingredients": ["Lettuce", "Spinach", "Cabbage", "Dressing of Your Choice", "Croutons", "Add protein for $1"],
+        "description": "The healthier choice or just a snack"
+    }],
+    "coldSandwiches": 
+    [{
+        "name": "BLT Sandwich",
+        "ingredients": ["Bread", "Bacon", "Lettuce", "Tomatoes", "Your choice of condiments", "Add egg for $0.50"],
+        "description": "Great anytime of day,comes with two sandwiches and small appetizer serving."
+    },
+    {
+        "name": "Tuna or Chicken Salad Sandwich",
+        "ingredients": ["Tuna or Chicken", "Mayo", "Mustard", "Celery", "Spices", "Bread", "Lettuce"],
+        "description": "Ingredients mixed well and served between two loaves of bread with small appetizer serving."
+    },
+    {
+        "name": "Italian Sub",
+        "ingredients": ["Salami", "Pepperoni", "Ham", "Cheese", "Lettuce", "Your choice of condiments", "Sub bread", "Tomatoes", "Italian Dressing", "Mild or Medium Sauce"],
+        "description": "Packed with meat and cheese, this is a great choice. Served with small appetizer serving."
+    }],
+    "hotSandwiches": 
+    [
+        {
+            "name": "Grilled Cheese",
+            "ingredients": ["Bread", "Cheese", "Ham, Salami, or Pepperoni for extra $1", "Add egg for $0.50"],
+            "description": "Great anytime. Served with small appetizer serving. and two sandwiches."
+        },
+        {
+            "name": "Cheeseburger",
+            "ingredients": ["Bread", "Beef Patty", "Cheese", "Lettuce", "Onion", "Tomato", "Your Choie of Condiments", "Add egg for $0.50"],
+            "description": "A good ole American Cheeseburger. Served with small appetizer serving."
+        }
+    ],
+    "desserts":
+    [
+        {
+            "name": "Fruit Salad",
+            "ingredients": ["Kiwi", "Apple", "Grapes", "Blackberries", "Strawberries"],
+            "description": "Enjoy a healthier dessert with any meal"
+        },
+        {
+            "name": "Chocolate Pudding Pie",
+            "ingredients": ["Chocolate Pudding", "Graham Cracker Crust", "Whipped Cream", "Berry Sauce Topping"],
+            "description": "Delicous end to any meal or sweet treat."
+        },
+        {
+            "name": "Ice Cream",
+            "ingredients": ["Pick Your Flavor: ", "Chocolate", "Strawberry", "Vanilla"],
+            "description": "A timeless sweet treat classic"
+        }
+    ],
+    "drinks":
+    [
+        {
+            "name": "Soda",
+            "ingredients": ["Corn Syrup", "Sugar/Sweetener", "Flavor", "Water"],
+            "description": "The best fix for bubbly caffeine cravings"
+        },
+        {
+            "name": "Coffee",
+            "ingredients": ["Coffee Grounds", "Water", "Cream and Sugar/Sweetener"],
+            "description": "A classic for whenever you need that extra energy"
+        },
+        {
+            "name": "Tea",
+            "ingredients": ["Pick your favorite", "Chamomile", "Black", "Green", "Earl Gray"],
+            "description": "For the tea lovers, just pick your bag and we''l give you hot water"
+        },
+        {
+            "name": "Juice",
+            "ingredients": ["Pick your favoriteL: ", "Apple", "Grape", "Orange", "Lemonade"],
+            "description": "Get your favorite juice with your meal instead!"
+        }
+    ]
+}
