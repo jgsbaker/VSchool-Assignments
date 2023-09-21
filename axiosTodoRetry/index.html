@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8"/><head><title>To Do</title>
+    </head>
+    <body>
+        <form name="todoForm" id="todoForm">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title"/>
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description"/>
+            <label for="price">Price</label>
+            <input type="number" name="price" id="price"/>
+            <label for="imgUrl">imgURL</label>
+            <input type="text" name="imgUrl" id="imgUrl"/>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+        <div id="list"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
