@@ -1,0 +1,108 @@
+body
+{
+    display: grid;
+    border: 3px solid burlywood;
+    margin: 10px;
+    padding: 10px;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+    background-color: aquamarine;
+}
+#box1
+{
+    background-color: purple;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 1;
+    grid-row: 1;
+    border: 5px solid black;
+}
+#box2
+{
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 2;
+    grid-row: 1;
+    border: 5px solid black;
+}
+#box3
+{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 3;
+    grid-row: 1;
+    border: 5px solid black;
+}
+#box4
+{
+    background-color:darkgreen;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 1;
+    grid-row: 2;
+    border: 5px solid black;
+}
+#box5
+{
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 2;
+    grid-row: 2;
+    border: 5px solid black;
+}
+#box6
+{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    padding: 3px;
+    grid-column: 3;
+    grid-row: 2;
+    border: 5px solid black;
+}
+#box1:hover
+{
+    background-color: maroon;
+    border: 3px dotted green;
+}
+#box2:hover
+{
+    border-radius:  10%;
+    box-shadow: 10px aqua;
+}
+#box3:hover
+{
+    height: 80px;
+    width: 80px;
+}
+#box4:hover
+{
+    margin: 6px;
+    padding: 6px;
+}
+#box5:hover
+{
+    grid-row: 2;
+    grid-column: 3;
+    opacity: 50%;
+}
+#box6:hover
+{
+    grid-row: 2;
+    grid-column: 2;
+    box-shadow: 10px beige;
+}

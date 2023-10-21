@@ -1,0 +1,25 @@
+body
+{
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+    background-color: gray;
+}
+#add
+{
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
+#subtract
+{
+    background-color: cyan;
+    margin: 5px;
+    padding: 5px;
+}
+#multiply
+{
+    background-color: aliceblue;
+    margin: 5px;
+    padding:5px;
+}
